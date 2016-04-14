@@ -31,7 +31,7 @@ cp /srv/shiny-server/shiny-landing-page/index.html /srv/shiny-server/
 
 You're almost there, but the html file needs to be able to find its links.  So we need to move over the 'assets' folder from the github repo.
 
-Note:  you'll notice that we had to ass a `-R` to the `cp` command.  This tells Linux to run through all the files and folders in the directory and copy them all.
+Note:  you'll notice that we had to add a `-R` to the `cp` command.  This tells Linux to run through all the files and folders in the directory and copy them all.
 
 ```
 cp -R /srv/shiny-server/shiny-landing-page/assets/ /srv/shiny-server/
